@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+.header{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    height: 25vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25vh 2.5vw;
+    padding-right: 6.5vw;
+    
+}
+.logobox{
+    height: 14vh;
+    width: 19vw;
+}
+
+.logo{
+    background-image: url("llogo.png");
+    height: 100%;
+    width: 100%;
+}
+.nav-links a {
+    margin-left: 2.5vw;
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+    font-weight: bold;
+    font-size: 1.2vw;
+  
+  }
+  
+  .nav-links a:hover {
+    color: rgb(60, 60, 245); 
+}
+  .front {
+    display: flex;
+    background-image: url(auto.png);
+    background-size: cover;
+    background-position: top center;
+    flex-direction: row;
+    height: 68.75vh;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.box-section{
+    display: flex;
+    padding: 2.5vh 0vh 2vh;
+    margin-top: 2vh;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color:#fff;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 1vw;   
+    box-shadow: 0vh 1.25vh 3vh rgba(183, 28, 28, 0.2);
+    height: 37.5vh;
+    width: 30%;
+    margin-bottom: 2.5vh;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    
+}
+.box:hover {
+    transform: translateY(-1.25vh);
+    box-shadow: 0  1.875vh 4.375vh rgba(183, 28, 28, 0.4);
+}
+
+.box1{
+    background-image: url(tl.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.box2{
+    background-image: url(hb4lll.png);
+    background-repeat: no-repeat;
+    
+}
+.box3{
+    background-image: url(qw.png);
+}
+.box4{
+    background-image: url(pt.png);
+    background-size: cover;
+}
+.box5{
+    background-image: url(pt3.png);
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+.box6{
+    background-image: url(fil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 2vh 4vw;
+    }
+
+    .logobox {
+        width: 60vw;
+        height: 10vh;
+    }
+
+    .logo {
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    .nav-links a {
+        font-size: 4vw;
+        margin: 1vh 0;
+    }
+
+    .front {
+        height: 30vh;
+        background-position: center;
+    }
+
+    .box {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+}
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 2vh 4vw;
+    }
+
+    .logobox {
+        width: 40vw;
+        height: 10vh;
+    }
+
+    .logo {
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    .nav-links a {
+        font-size: 3vw;
+        margin: 1vh 0;
+    }
+
+    .front {
+        height: 45vh;
+        background-position: center;
+    }
+
+    .box {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+
+    .box-section {
+        padding: 2vh 2vw;
+        justify-content: center;
+    }
+}
+@media (max-width: 1100px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 2vh 4vw;
+    }
+
+    .logobox {
+        width: 30vw;
+        height: 10vh;
+    }
+
+    .logo {
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2vh;
+    }
+
+    .nav-links a {
+        font-size: 2.2vw;
+        margin: 1vh 0;
+    }
+
+    .front {
+        height: 55vh;
+        background-position: center;
+    }
+
+    .box {
+        width: 45vw;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+
+    .box-section {
+        padding: 2vh 4vw;
+        justify-content: center;
+    }
+}

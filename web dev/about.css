@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.header {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    height: 25vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25vh 2.5vw;
+    padding-right: 6.5vw;
+}
+.logobox {
+    height: 25vh;
+    width: 20vw;
+}
+.logo {
+    background-image: url("llogo.png");
+    height: 15vh;
+    width: 19vw;
+}
+.aboutus {
+    text-align: center;
+    padding-left: 26vw;
+    padding-right: 26vw;
+    margin-bottom: 3.9vh;
+}
+h4 {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.ourmission {
+    text-align: center;
+    padding-left: 26vw;
+    padding-right: 26vw;
+}
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 2vh 4vw;
+    }
+
+    .logobox {
+        width: 80vw;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+    .logo {
+        height: 10vh;
+        width: 70vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .aboutus,
+    .ourmission {
+        padding: 2vh 5vw;
+        font-size: 3.5vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
+}
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 3vh 5vw;
+    }
+
+    .logobox {
+        width: 60vw;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+    .logo {
+        height: 12vh;
+        width: 55vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .aboutus,
+    .ourmission {
+        padding: 3vh 8vw;
+        font-size: 2.5vw;
+    }
+
+    h4 {
+        font-size: 3vw;
+    }
+}
+@media (max-width: 1100px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 3vh 5vw;
+    }
+
+    .logobox {
+        width: 50vw;
+        height: auto;
+        margin-bottom: 2vh;
+    }
+
+    .logo {
+        height: 14vh;
+        width: 45vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .aboutus,
+    .ourmission {
+        padding: 4vh 10vw;
+        font-size: 1.8vw;
+    }
+
+    h4 {
+        font-size: 2.2vw;
+    }
+}
